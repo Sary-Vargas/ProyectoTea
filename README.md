@@ -2,7 +2,7 @@
 
 Sistema web para la gestion academica, evaluacion, evidencias, seguimiento, prediccion y reportes de estudiantes con Trastorno del Espectro Autista.
 
-## Stack
+## Herramientas de desarollo
 
 - Frontend: React + Vite.
 - Backend: Node.js + Express.
