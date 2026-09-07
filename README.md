@@ -197,7 +197,4 @@ Desde el modulo Configuracion del Director tambien se pueden crear:
 - Backup MySQL: genera un `.sql` y lo guarda en Firebase Storage.
 - Backup completo: genera un `.zip` con MySQL y archivos relevantes de Firebase Storage.
 
-Para migrar a otra laptop, se recomienda llevar el ZIP del proyecto completo y, si se requiere conservar datos reales, crear antes un backup desde Configuracion.
 
-- `docs/PRODUCCION.md`
-- `docs/VERIFICACION_SISTEMA.md`
