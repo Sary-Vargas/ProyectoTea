@@ -49,31 +49,6 @@ copy .env.example .env
 
 Completar `.env` con los datos reales. El backend y el frontend leen este unico archivo:
 
-```env
-PORT=4002
-FIREBASE_PROJECT_ID=proyectotea-fe7b8
-FIREBASE_STORAGE_BUCKET=proyectotea-fe7b8.firebasestorage.app
-FIRESTORE_DATABASE_ID=default
-FIREBASE_WEB_API_KEY=tu-api-key-web
-MYSQL_HOST=localhost
-MYSQL_PORT=3306
-MYSQL_DATABASE=proyectotea
-MYSQL_USER=root
-MYSQL_PASSWORD=tu-password
-MYSQL_CONNECTION_LIMIT=10
-VITE_FIREBASE_API_KEY=tu-api-key-web
-VITE_FIREBASE_AUTH_DOMAIN=proyectotea-fe7b8.firebaseapp.com
-VITE_FIREBASE_PROJECT_ID=proyectotea-fe7b8
-VITE_FIREBASE_STORAGE_BUCKET=proyectotea-fe7b8.firebasestorage.app
-VITE_FIREBASE_MESSAGING_SENDER_ID=tu-sender-id
-VITE_FIREBASE_APP_ID=tu-app-id
-VITE_FIREBASE_MEASUREMENT_ID=tu-measurement-id
-VITE_FIRESTORE_DATABASE_ID=default
-VITE_API_BASE_URL=http://localhost:4002/api
-ALLOWED_ORIGINS=http://localhost:5180,http://127.0.0.1:5180
-VITE_SESSION_IDLE_MINUTES=30
-```
-
 ## Ejecucion local
 
 Instalar dependencias:
@@ -224,23 +199,5 @@ Desde el modulo Configuracion del Director tambien se pueden crear:
 
 Para migrar a otra laptop, se recomienda llevar el ZIP del proyecto completo y, si se requiere conservar datos reales, crear antes un backup desde Configuracion.
 
-## Seguridad
-
-No subir al repositorio:
-
-- `.env`
-- credenciales reales
-- service accounts
-- `node_modules`
-- `dist`
-
-El `.gitignore` del proyecto ya protege estos archivos.
-
-## Documentacion relacionada
-
-- `REGLAS DE NEGOCIO.md`
-- `docs/ARQUITECTURA.md`
-- `docs/PERMISOS_ROLES.md`
-- `docs/FIREBASE_SETUP.md`
 - `docs/PRODUCCION.md`
 - `docs/VERIFICACION_SISTEMA.md`
